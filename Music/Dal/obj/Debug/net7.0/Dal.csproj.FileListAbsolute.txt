@@ -26,6 +26,7 @@ D:\second year\c#\homework\lesson 9\Music\Dal\obj\Debug\net7.0\refint\Dal.dll
 D:\second year\c#\homework\lesson 9\Music\Dal\obj\Debug\net7.0\Dal.pdb
 D:\second year\c#\homework\lesson 9\Music\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
 D:\second year\c#\homework\lesson 9\Music\Dal\obj\Debug\net7.0\ref\Dal.dll
+<<<<<<< HEAD
 C:\Users\User\Desktop\music progect\MusicPlatform\Music\Dal\bin\Debug\net7.0\Dal.deps.json
 C:\Users\User\Desktop\music progect\MusicPlatform\Music\Dal\bin\Debug\net7.0\Dal.runtimeconfig.json
 C:\Users\User\Desktop\music progect\MusicPlatform\Music\Dal\bin\Debug\net7.0\Dal.dll
@@ -40,3 +41,19 @@ C:\Users\User\Desktop\music progect\MusicPlatform\Music\Dal\obj\Debug\net7.0\ref
 C:\Users\User\Desktop\music progect\MusicPlatform\Music\Dal\obj\Debug\net7.0\Dal.pdb
 C:\Users\User\Desktop\music progect\MusicPlatform\Music\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
 C:\Users\User\Desktop\music progect\MusicPlatform\Music\Dal\obj\Debug\net7.0\ref\Dal.dll
+=======
+C:\Users\User\Desktop\project\MusicPlatform\Music\Dal\bin\Debug\net7.0\Dal.deps.json
+C:\Users\User\Desktop\project\MusicPlatform\Music\Dal\bin\Debug\net7.0\Dal.runtimeconfig.json
+C:\Users\User\Desktop\project\MusicPlatform\Music\Dal\bin\Debug\net7.0\Dal.dll
+C:\Users\User\Desktop\project\MusicPlatform\Music\Dal\bin\Debug\net7.0\Dal.pdb
+C:\Users\User\Desktop\project\MusicPlatform\Music\Dal\obj\Debug\net7.0\Dal.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\project\MusicPlatform\Music\Dal\obj\Debug\net7.0\Dal.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\project\MusicPlatform\Music\Dal\obj\Debug\net7.0\Dal.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\project\MusicPlatform\Music\Dal\obj\Debug\net7.0\Dal.AssemblyInfo.cs
+C:\Users\User\Desktop\project\MusicPlatform\Music\Dal\obj\Debug\net7.0\Dal.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\project\MusicPlatform\Music\Dal\obj\Debug\net7.0\Dal.dll
+C:\Users\User\Desktop\project\MusicPlatform\Music\Dal\obj\Debug\net7.0\refint\Dal.dll
+C:\Users\User\Desktop\project\MusicPlatform\Music\Dal\obj\Debug\net7.0\Dal.pdb
+C:\Users\User\Desktop\project\MusicPlatform\Music\Dal\obj\Debug\net7.0\Dal.genruntimeconfig.cache
+C:\Users\User\Desktop\project\MusicPlatform\Music\Dal\obj\Debug\net7.0\ref\Dal.dll
+>>>>>>> 55e2bf32789f4f762e8f899a3bd3059dfed648d6

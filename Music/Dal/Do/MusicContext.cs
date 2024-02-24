@@ -27,6 +27,8 @@ public partial class MusicContext : DbContext
 
     public virtual DbSet<Song> Songs { get; set; }
 
+    public virtual DbSet<Subscriber> Subscribers { get; set; }
+
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         modelBuilder.Entity<Album>(entity =>
@@ -155,6 +157,17 @@ public partial class MusicContext : DbContext
                 .HasForeignKey(d => d.SingerId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("FK_SongSinger");
+        });
+
+        modelBuilder.Entity<Subscriber>(entity =>
+        {
+            entity.HasKey(e => e.Code).HasName("PK__Subscrib__A25C5AA62F9A761C");
+
+            entity.Property(e => e.FirstName).HasMaxLength(50);
+            entity.Property(e => e.Id)
+                .HasMaxLength(10)
+                .HasColumnName("ID");
+            entity.Property(e => e.LastName).HasMaxLength(50);
         });
 
         OnModelCreatingPartial(modelBuilder);
