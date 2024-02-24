@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "llnyqCQhf3GF6NGO/afbAQXxKPo+FtskSgRdDaD2ZSvgYObS21gKX+0u6Vu/64FdbUBaDTK8DwC3vD1TQQvS8w==",
+  "dgSpecHash": "FDDTMD4mTQv6oHhO4BDp7p3Bxchvyqi+bs/XMJU+ofTT+fMUZeWnWkCJ4WTs8jqNvtygqXny3B9y194Jqs9Bdg==",
   "success": true,
-  "projectFilePath": "E:\\שנה ב\\פרויקט סטאז\\progect\\Music\\Server\\Server.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\project\\MusicPlatform\\Music\\Server\\Server.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",

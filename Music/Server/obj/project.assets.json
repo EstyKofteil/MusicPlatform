@@ -2886,11 +2886,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\שנה ב\\פרויקט סטאז\\progect\\Music\\Server\\Server.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\project\\MusicPlatform\\Music\\Server\\Server.csproj",
       "projectName": "Server",
-      "projectPath": "E:\\שנה ב\\פרויקט סטאז\\progect\\Music\\Server\\Server.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\project\\MusicPlatform\\Music\\Server\\Server.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\שנה ב\\פרויקט סטאז\\progect\\Music\\Server\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\project\\MusicPlatform\\Music\\Server\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -2912,8 +2912,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "E:\\שנה ב\\פרויקט סטאז\\progect\\Music\\BL\\BL.csproj": {
-              "projectPath": "E:\\שנה ב\\פרויקט סטאז\\progect\\Music\\BL\\BL.csproj"
+            "C:\\Users\\User\\Desktop\\project\\MusicPlatform\\Music\\BL\\BL.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\project\\MusicPlatform\\Music\\BL\\BL.csproj"
             }
           }
         }
