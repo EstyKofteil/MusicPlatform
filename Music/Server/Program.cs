@@ -15,10 +15,9 @@ builder.Services.AddControllers();
 DBActions db = new DBActions(builder.Configuration);
 string connStr = db.GetConnectionString("MusicDB");
 builder.Services.AddDbContext<MusicContext>(opt => opt.UseSqlServer(connStr));
-builder.Services.AddScoped<IsongRepo, SongRepo>();
+builder.Services.AddScoped<ISongRepoDal, SongRepo>();
 builder.Services.AddScoped<IsongRepoBl, SongServiceBl>();
 var app = builder.Build();
-
 app.MapGet("/", () => "Hello World!");
 app.MapControllers();
 app.Run();

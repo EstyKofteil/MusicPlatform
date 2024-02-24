@@ -11,7 +11,7 @@ using Dal.DalApi;
 
 namespace DAL.DalImplementation
 {
-    public class SongRepo : IsongRepo
+    public class SongRepo : ISongRepoDal
     {
         MusicContext musicContext;
         public SongRepo(MusicContext musicContext)

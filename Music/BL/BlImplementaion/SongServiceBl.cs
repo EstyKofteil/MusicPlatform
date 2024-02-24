@@ -12,8 +12,8 @@ namespace BL.BlImplementaion
 {
     public class SongServiceBl :IsongRepoBl
     {
-        IsongRepo songRepo;
-        public SongServiceBl(IsongRepo songRepo)
+        ISongRepoDal songRepo;
+        public SongServiceBl(ISongRepoDal songRepo)
         {
             this.songRepo = songRepo;
         }
