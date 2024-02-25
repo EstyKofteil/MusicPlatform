@@ -19,6 +19,16 @@ namespace BL.BlImplementaion
             this.songRepoBl=songRepoBl;
         }
 
+        public Singer Add(Singer singer)
+        {
+            throw new NotImplementedException();
+        }
+
+        public Singer Delete(int code)
+        {
+            throw new NotImplementedException();
+        }
+
         public List<Singer> GetAll()
         {
             List<Singer> list = new();
@@ -47,6 +57,9 @@ namespace BL.BlImplementaion
             return singerSong;
         }
 
-       
+        public Singer Update(Singer something, int somethimgCode)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
