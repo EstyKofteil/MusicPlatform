@@ -7,17 +7,18 @@ namespace Server.Controllers
 {
     public class SingersController:BaseController
     {
-        ISingerRepoBl singerRepoBl;
-        public SingersController(ISingerRepoBl singerRepoBl)
+        
+        ISingerRepoBl ISingerRepoBl;
+        public SingersController(ISingerRepoBl ISingerRepoBl)
         {
-            this.singerRepoBl = singerRepoBl;
+            this.ISingerRepoBl = ISingerRepoBl;
         }
         [HttpGet]
         public ActionResult<List<Singer>> GetSingers()
         {
-            if (singerRepoBl.GetAll() == null)
+            if (ISingerRepoBl.GetAll() == null)
                 return NotFound();
-            return singerRepoBl.GetAll();
+            return ISingerRepoBl.GetAll();
         }
     }
 }
