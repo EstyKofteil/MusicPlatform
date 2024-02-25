@@ -31,7 +31,7 @@ namespace DAL.DalImplementation
             musicContext.SaveChanges();
             return song;
         }
-        public Song? Update(Song song, int id)
+        public Song Update(Song song, int id)
         {
             Song songToUpdate = musicContext.Songs.FirstOrDefault(p => p.Id == id);
             if (songToUpdate != null)

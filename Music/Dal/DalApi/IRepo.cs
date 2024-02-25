@@ -11,7 +11,7 @@ namespace Dal.DalApi
     {
 
         public List<T> GetAll();
-        public T Add(Song song);
+        public T Add(T something);
         public T Update(T something, int somethimgCode);
         public T Delete(int code);
 

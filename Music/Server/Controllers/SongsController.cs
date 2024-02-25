@@ -1,29 +1,29 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using BL.BlApi;
 using BL.Bo;
+using System.Collections.Generic;
 
 namespace Server.Controllers
 {
-    [ApiController]
-    [Route("api/[controller]")]
-    public class SongsController : ControllerBase
+  
+    public class SongsController : BaseController
     {
-        IsongRepoBl isongRepoBl;
-        public SongsController(IsongRepoBl isongRepoBl)
+        ISongRepoBl ISongRepoBl;
+        public SongsController(ISongRepoBl ISongRepoBl)
         {
-            this.isongRepoBl = isongRepoBl;
+            this.ISongRepoBl = ISongRepoBl;
         }
         [HttpGet]
         public ActionResult<List<Song>> Get()
         {
-            if (isongRepoBl.GetSongs() == null)
+            if (ISongRepoBl.GetAll() == null)
                 return NotFound();
-            return isongRepoBl.GetSongs();
+            return ISongRepoBl.GetAll();
         }
         [HttpGet("{SongId}")]
         public Song GetPublocationSong(int SongId)
         {
-            return isongRepoBl.GetPublicationSong();
+            return ISongRepoBl.GetPublicationSong();
         }
     }
 }

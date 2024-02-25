@@ -7,9 +7,8 @@ using BL.Bo;
 
 namespace BL.BlApi
 {
-    public interface IsongRepoBl
+    public interface ISongRepoBl:IRepoBl<Song>
     {
-        public List<Song> GetSongs();
         public Song GetPublicationSong();
     }
 }

@@ -10,7 +10,7 @@ using Dal.DalApi;
 using BL.BlApi;
 namespace BL.BlImplementaion
 {
-    public class SongServiceBl :IsongRepoBl
+    public class SongServiceBl :ISongRepoBl
     {
         ISongRepoDal songRepo;
         public SongServiceBl(ISongRepoDal songRepo)
@@ -18,7 +18,7 @@ namespace BL.BlImplementaion
             this.songRepo = songRepo;
         }
 
-        public List<Song> GetSongs()
+        public List<Song> GetAll()
         {
             List<Song> list = new();
             var data = songRepo.GetAll();
@@ -52,5 +52,7 @@ namespace BL.BlImplementaion
             }
             return lastSong;
         }
+
+        
     }
 }
